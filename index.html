@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,500;0,900;1,600&family=Poppins:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="history1.jpg" style="width:100%">
+    <div class="text">"Last Surprise for our Principal."</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="history2.jpg" style="width:100%">
+    <div class="text">"Pilgrimage to the tomb of Sunan Ampel"</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="history3.jpg" style="width:100%">
+    <div class="text">"Last Photo before Ms. Ifa goes to Mecca"</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="reminder.jpg" style="width:100%">
+
+    <div class="reminder">
+
+      <h3 style="display: block; position: relative; margin: auto; text-align: center; width: 150px; height: 50px; background: white; line-height: 50px; font-family: 'Poppins'; border-radius: 3px;" onclick="redirect()" >See more.</h3>
+    </div>
+    <div class="text"></div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+  <div class="img-his1">
+    <img src="history1.jpg" width="350" height="200" alt="">
+  </div>
+  <h1 class="title">History of <p style="display: inline-block; color: #FF6EC7">6</p></h1>
+  <h3 class="quote1">"We're beautiful like diamonds in the Sky"</h3>
+  <p class="filler">The time has come, We will all part. We have tried a lot of new things in grade 6. We will always remember the memories in grade 6. We have prepared for this farewell, We hope that we still remember about the memories in 6th grade. We go, Goodbye.</p>
+  
+  <p class="filler">Waktunya telah tiba, Kami akan berpisah. Kami sudah mencoba hal-hal baru di kelas 6. Kami akan selalu ingat tentang memori/kenangan di kelas 6. Kami sudah siap dengan perpisahan ini, Kami berharap bahwa nanti kami akan selalu ingat tentang kenangan masa lalu di kelas 6. Kami akan pergi, Selamat Tinggal</p>
+  
+  <div class="archive">
+    <div class="person"></div>
+    <div class="knowngroups"></div>
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
